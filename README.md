@@ -1,6 +1,6 @@
-# study-source
+# TG工作室学习资源网站
 
-> A Vue.js project
+>本项目前端采用 Vue.js 及 YDUI 
 
 ## Build Setup
 
