@@ -13,26 +13,18 @@
 ## 项目启动
 
 ``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+在本地shell或git bash里分别运行如下命令：
 
-# build for production with minification
-npm run build
+1.git clone git@github.com:TGclub/TGproject_resource-website.git
 
-# build for production and view the bundle analyzer report
-npm run build --report
+2.cd TGproject_resource-website
 
-# run unit tests
-npm run unit
+3.cnpm install(或者npm install) （本地没有node的先去下载node
 
-# run e2e tests
-npm run e2e
+4.npm run dev
 
-# run all tests
-npm test
+5.在浏览器输入 http://localhost:8080
 ```
 
 ## 未完待续
