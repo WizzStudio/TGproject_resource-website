@@ -1,16 +1,8 @@
-# TG工作室学习资源网站
+# study-source
 
-![](https://img.shields.io/badge/webpack-3.8.1-green.svg) ![](https://img.shields.io/badge/vue.js-2.5.2-green.svg) 
-![](https://img.shields.io/badge/YDUI-1.1.0-green.svg)
+> A Vue.js project
 
-
->本项目前端采用 Vue.js 及 YDUI 
-
-## 开发者
- 1. 前端：王智
- 2. 后端：李卓
-
-## 项目启动
+## Build Setup
 
 ``` bash
 # install dependencies
@@ -35,6 +27,4 @@ npm run e2e
 npm test
 ```
 
-## 未完待续
-
->本项目正在开发中，项目技术栈及前后端代码结构在项目最终完结后，会补充完整……
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

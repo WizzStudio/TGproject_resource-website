@@ -68,7 +68,6 @@
   }
   .nav__content-ul{
     border: 1px solid #1d2225;
-
   }
   .nav__content-ul li{
     line-height: .6rem;
