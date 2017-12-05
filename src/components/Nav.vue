@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <div id="nav">
     <yd-accordion>
       <yd-accordion-item title="TG STUDIO" class="nav__bar">
         <div slot="icon" class="nav__icon" @click.native="open"><yd-icon name="type" size=".38rem" color="#FFF" ></yd-icon></div>
@@ -43,7 +43,7 @@
 </script>
 
 <style scoped>
-  .nav{
+  #nav{
     color: #ddd;
   }
   .nav__bar{

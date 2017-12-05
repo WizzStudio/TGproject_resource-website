@@ -1,5 +1,5 @@
 <template>
-  <div class="scrolltab">
+  <div id="scrolltab">
     <yd-scrolltab>
 
      <!-- <yd-scrolltab-panel label="学习分类" icon="demo-icons-category1" active>
@@ -11,7 +11,7 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>Java语言学习</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">Java语言学习</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>

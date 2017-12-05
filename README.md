@@ -1,26 +1,30 @@
-# TG工作室学习资源网站
+# study-source
 
-![](https://img.shields.io/badge/webpack-3.8.1-green.svg) ![](https://img.shields.io/badge/vue.js-2.5.2-green.svg) 
-![](https://img.shields.io/badge/YDUI-1.1.0-green.svg)
+> A Vue.js project
 
+## Build Setup
 
->本项目前端采用 Vue.js 及 YDUI 
+``` bash
+# install dependencies
+npm install
 
-## 开发者：
- 1. 前端：王智
- 2. 后端：李卓
+# serve with hot reload at localhost:8080
+npm run dev
 
-## 项目启动
+# build for production with minification
+npm run build
 
-在本地 shell 或者 git bash 里分别运行如下命令：
+# build for production and view the bundle analyzer report
+npm run build --report
 
-- git clone git@github.com:TGclub/TGproject_resource-website.git
-- cd TGproject_resource-website
-- cnpm install(或者npm install) （本地没有node的先去下载node
-- npm run dev
-- 在浏览器输入 http://localhost:8090
+# run unit tests
+npm run unit
 
+# run e2e tests
+npm run e2e
 
-## 未完待续
+# run all tests
+npm test
+```
 
->本项目正在开发中，项目技术栈及前后端代码结构在项目最终完结后，会补充完整……
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

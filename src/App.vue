@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <router-view name="ScrollTab"></router-view>
-    <router-view name="Nav"></router-view>
+
+    <router-view></router-view>
 
   </div>
 </template>
