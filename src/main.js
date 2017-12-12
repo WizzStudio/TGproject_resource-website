@@ -3,11 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
 import YDUI from 'vue-ydui';
 import './common/css/ydui.rem.css';
 
 /* 使用YDUI库 */
 Vue.use(YDUI);
+Vue.prototype.$http = axios;
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */

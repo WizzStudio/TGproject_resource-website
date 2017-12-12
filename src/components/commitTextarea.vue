@@ -2,7 +2,7 @@
   <div class="commentTextarea">
     <b v-if="type">你回复 {{name}}</b>
     <textarea placeholder="请在此填写评论内容" v-model="commentText"></textarea>
-    <button class="btn" @click="addComment">发表</button>
+    <button class="btn" @click="addComment();postData()" >发表</button>
     <button class="btn" @click="cancelComment">取消</button>
   </div>
 </template>
@@ -20,6 +20,10 @@
       },
       cancelComment: function() {
         this.$emit("cancel");
+        this.commentText = "";
+      },
+      postData: function () {
+        this.$emit("post");
         this.commentText = "";
       }
     }

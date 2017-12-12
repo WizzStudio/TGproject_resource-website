@@ -15,7 +15,7 @@
     </div>
 
     <footer>
-      <commentTextarea v-bind:type="type" v-bind:name="oldComment" v-on:submit="addComment" v-on:cancel="cancelCommit"></commentTextarea>
+      <commentTextarea v-bind:type="type" v-bind:name="oldComment" v-on:submit="addComment" v-on:cancel="cancelCommit" v-on:post="postData"></commentTextarea>
     </footer>
   </div>
 </template>
@@ -33,7 +33,7 @@
           oldComment: null,
           chosedIndex: -1,        //被选中的评论的index
           comment: [
-            {
+            /*{
               name: "新垣结衣",
               time: "2017-12-05 14:25:00",
               content: "王智是我的老公，我爱王智",
@@ -57,9 +57,12 @@
               time: "2017-12-05 14:27:00",
               content: "结衣不要走！啊！",
               reply: []
-            }
+            }*/
           ]
         }
+    },
+    mounted(){
+      this.getData();
     },
     methods: {
       goBack(){
@@ -91,6 +94,25 @@
       },
       cancelCommit: function() {
         this.type = 0;
+      },
+      getData(){
+        var _this=this;/* axios的两个回调函数都有各自独立的作用域，如果直接在里面访问 this，无法访问到 Vue 实例 */
+        this.$http.post('https://bird.ioliu.cn/joke').then(function(res){
+//          _this.comment = res.data;
+          console.log(res.data);
+        }).catch(function(error){
+          console.log('error init'+error);
+        });
+      },
+      postData(){
+       /* var _this=this;
+        this.$http.post('https://bird.ioliu.cn/joke').then(function(res){
+//          _this.comment = res.data;
+          console.log(res.data);
+        }).catch(function(error){
+          console.log('error init'+error);
+        });*/
+       alert(123);
       }
     },
     components:{
