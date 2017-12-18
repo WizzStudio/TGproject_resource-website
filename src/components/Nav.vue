@@ -9,10 +9,10 @@
               <yd-icon name="home" size=".4rem" color="#888"></yd-icon><a href="">首页</a>
             </li>
             <li class="nav__content-ul_li_2">
-              <yd-icon name="feedback" size=".4rem" color="#888"></yd-icon><a href="">TG博客</a>
+              <yd-icon name="feedback" size=".4rem" color="#888"></yd-icon><a href="http://tgblog.helloyzy.cn/">TG博客</a>
             </li>
             <li class="nav__content-ul_li_3">
-              <yd-icon name="ucenter-outline" size=".4rem" color="#888"></yd-icon><a href="">关于我们</a>
+              <yd-icon name="ucenter-outline" size=".4rem" color="#888"></yd-icon><a href="http://portal.helloyzy.cn/">关于我们</a>
             </li>
           </ul>
         </div>

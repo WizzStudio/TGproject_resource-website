@@ -39,8 +39,8 @@
       NavView
     },
     mounted(){
-      this.getData();
-     /* this.getParams();*/
+//      this.getData();
+      this.getParams();
     },
     data(){
       return{
@@ -69,9 +69,9 @@
             console.log('error init'+error);
           })
        },
-     /* getParams(){
+      getParams(){
         console.log(this.$route.query)
-      }*/
+      }
     }
   }
 
