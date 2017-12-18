@@ -11,7 +11,19 @@
   export default{
     props: ['type','name'],
     data: function(){
-      return {commentText:""}
+      return {
+          commentText:'',
+          sonName: this.name,
+          sonType: this.type
+      }
+    },
+    watch:{
+      name(val){
+          this.sonName = val;
+      },
+      type(val){
+          this.sonType = val;
+      }
     },
     methods: {
       addComment: function() {

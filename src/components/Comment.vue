@@ -11,11 +11,11 @@
     </header>
 
     <div class="container">
-      <commentContent v-bind:comment="comment" v-on:change="changCommentator"></commentContent>
+      <commentContent :comment="comment" :isRequested="isRequested" @change="changCommentator"></commentContent>
     </div>
 
     <footer>
-      <commentTextarea v-bind:type="type" v-bind:name="oldComment" v-on:submit="addComment" v-on:cancel="cancelCommit" v-on:post="postData"></commentTextarea>
+      <commentTextarea :type="type" @name="oldComment" @submit="addComment" @cancel="cancelCommit" @post="postData"></commentTextarea>
     </footer>
   </div>
 </template>
@@ -32,8 +32,9 @@
           type: 0,                //0为评论作者,1为评论别人的评论,2为评论别人的别人
           oldComment: null,
           chosedIndex: -1,        //被选中的评论的index
+          isRequested: false,     //判断数据是否获取到
           comment: [
-            /*{
+       /*     {
               name: "新垣结衣",
               time: "2017-12-05 14:25:00",
               content: "王智是我的老公，我爱王智",
@@ -96,23 +97,24 @@
         this.type = 0;
       },
       getData(){
-        var _this=this;/* axios的两个回调函数都有各自独立的作用域，如果直接在里面访问 this，无法访问到 Vue 实例 */
-        this.$http.post('https://bird.ioliu.cn/joke').then(function(res){
-//          _this.comment = res.data;
-          console.log(res.data);
+        var that=this;/* axios的两个回调函数都有各自独立的作用域，如果直接在里面访问 this，无法访问到 Vue 实例 */
+        this.$http.post('http://localhost:8090/api/comment').then(function(res){
+          that.comment = res.data;
+          that.isRequested = true;
+//          console.log(res.data);
+//          console.log(that.comment);
         }).catch(function(error){
           console.log('error init'+error);
         });
       },
       postData(){
-       /* var _this=this;
-        this.$http.post('https://bird.ioliu.cn/joke').then(function(res){
-//          _this.comment = res.data;
+        var _this = this;
+        this.$http.post('../../mock/data.json').then(function(res){
+          _this.comment = res.data;
           console.log(res.data);
         }).catch(function(error){
           console.log('error init'+error);
-        });*/
-       alert(123);
+        });
       }
     },
     components:{

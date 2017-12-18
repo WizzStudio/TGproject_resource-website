@@ -11,25 +11,25 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages'}">Java语言学习</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'java',sub_tag:'01'}}">Java语言学习</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>数据库</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">数据库</router-link></p>
             </div>
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>java工具</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">java工具</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>J2EE</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">J2EE</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>框架学习</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">框架学习</router-link></p>
             </div>
           </div>
        </div>
@@ -40,25 +40,25 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>PHP语言学习</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">PHP语言学习</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>实现CURD</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">实现CURD</router-link></p>
             </div>
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>PHP框架学习</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">PHP框架学习</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>环境搭建</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">环境搭建</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>MVC编程模式</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">MVC编程模式</router-link></p>
             </div>
           </div>
         </div>
@@ -69,25 +69,25 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>HTML</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">HTML</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>JavaScript</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">JavaScript</router-link></p>
             </div>
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>前端工具</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">前端工具</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>CSS</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">CSS</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>前端框架</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">前端框架</router-link></p>
             </div>
           </div>
         </div>
@@ -98,21 +98,21 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>产品策划</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">产品策划</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>产品管理</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">产品管理</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>产品设计</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">产品设计</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>产品运营</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">产品运营</router-link></p>
             </div>
           </div>
         </div>
@@ -123,25 +123,25 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>Spark</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">Spark</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>Storm</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">Storm</router-link></p>
             </div>
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>Scala</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">Scala</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>Hadoop</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">Hadoop</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p>Kafka</p>
+              <p><router-link tag="a" :to="{name:'detailPages'}">Kafka</router-link></p>
             </div>
           </div>
         </div>

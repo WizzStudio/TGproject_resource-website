@@ -1,11 +1,11 @@
 <template>
   <div class="commentContent">
-    <p v-if="comment.length==0" class="comment__blank">暂无评论，快来抢沙发吧！</p>
+    <p v-if="sonComment ==''" class="comment__blank">暂无评论，快来抢沙发吧！</p>
     <div v-else>
-      <div class="comment" v-for="(item,index) in comment" v-bind:index="index" >
+      <div class="comment" v-for="(item,index) in sonComment" :index="index" >
         <b>{{item.name}}<span class="comment__span">{{item.time}}</span></b>
         <p @click="changeCommenter(item.name,index)" class="comment__p">{{item.content}}</p>
-        <div v-if="item.reply.length > 0">
+        <div v-if="item.reply !== ''">
           <div class="reply" v-for="reply in item.reply">
             <b>{{reply.responder}}  回复  {{reply.reviewers}}<span class="comment__span">{{reply.time}}</span></b>
             <p @click="changeCommenter(reply.responder,index)" class="comment__p">{{reply.content}}</p>
@@ -18,7 +18,30 @@
 
 <script>
   export default{
-    props: ['comment'],
+    props: ['comment','isRequested'],
+    data(){
+      return{
+          sonComment: this.comment
+      }
+    },
+   /* mounted(){
+      this.getData();
+    },*/
+    watch:{
+        comment(val){
+            this.sonComment = val;
+        },
+       /* isRequested:{
+
+        changeCommenter: function(name,index) {
+          this.$emit("change",name,index);
+        },
+        getData(){
+          console.log(this.isRequested);
+        },
+        deep:true
+      }*/
+    },
     methods: {
       changeCommenter: function(name,index) {
         this.$emit("change",name,index);
