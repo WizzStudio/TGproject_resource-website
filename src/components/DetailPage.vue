@@ -21,8 +21,8 @@
         <p class="footerContent__back-p" @click="goBack"><yd-icon name="share2" size=".4rem" color="#888"></yd-icon>返回</p>
       </yd-flexbox-item>
       <footer>
-        <yd-icon name="feedback" size=".4rem" color="#888"></yd-icon>
-        <span><router-link :to="{name:'comment'}">评论</router-link></span>
+       <!-- <yd-icon name="feedback" size=".4rem" color="#888"></yd-icon>
+        <span><router-link :to="{name:'comment'}">评论</router-link></span>-->
       </footer>
     </yd-flexbox>
 
@@ -39,8 +39,8 @@
       NavView
     },
     mounted(){
-//      this.getData();
-      this.getParams();
+     this.getData();
+//      this.getParams();
     },
     data(){
       return{
@@ -63,8 +63,8 @@
             }
           }).then(res=>{
             var str = res.data;
-            console.log(str);
-            _this.pageContent = str.substring(1,str.length-1);
+            _this.pageContent = str[0].content
+//            _this.pageContent = str.substring(1,str.length-1);
           }).catch((error)=>{
             console.log('error init'+error);
           })
