@@ -11,25 +11,25 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'java',sub_tag:'01'}}">Java语言学习</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Java Web',sub_tag:'Java语言学习'}}">Java语言学习</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'java',sub_tag:'02'}}">数据库</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Java Web',sub_tag:'数据库'}}">数据库</router-link></p>
             </div>
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'java',sub_tag:'02'}}">java工具</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Java Web',sub_tag:'java工具'}}">java工具</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'java',sub_tag:'04'}}">J2EE</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Java Web',sub_tag:'J2EE'}}">J2EE</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'java',sub_tag:'05'}}">框架学习</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Java Web',sub_tag:'框架学习'}}">框架学习</router-link></p>
             </div>
           </div>
        </div>
@@ -40,25 +40,25 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'php',sub_tag:'01'}}">PHP语言学习</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'PHP Web',sub_tag:'PHP语言学习'}}">PHP语言学习</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'php',sub_tag:'02'}}">实现CURD</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'PHP Web',sub_tag:'实现CURD'}}">实现CURD</router-link></p>
             </div>
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'php',sub_tag:'03'}}">PHP框架学习</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'PHP Web',sub_tag:'PHP框架学习'}}">PHP框架学习</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'php',sub_tag:'04'}}">环境搭建</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'PHP Web',sub_tag:'环境搭建'}}">环境搭建</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'php',sub_tag:'05'}}">MVC编程模式</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'PHP Web',sub_tag:'MVC编程模式'}}">MVC编程模式</router-link></p>
             </div>
           </div>
         </div>
@@ -69,25 +69,25 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'web',sub_tag:'01'}}">HTML</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Web 前端',sub_tag:'HTML'}}">HTML</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'web',sub_tag:'02'}}">JavaScript</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Web 前端',sub_tag:'JavaScript'}}">JavaScript</router-link></p>
             </div>
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'web',sub_tag:'03'}}">前端工具</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Web 前端',sub_tag:'前端工具'}}">前端工具</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'web',sub_tag:'04'}}">CSS</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Web 前端',sub_tag:'CSS'}}">CSS</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'web',sub_tag:'05'}}">前端框架</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'Web 前端',sub_tag:'前端框架'}}">前端框架</router-link></p>
             </div>
           </div>
         </div>
@@ -98,21 +98,21 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'product',sub_tag:'01'}}">产品策划</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'产品经理',sub_tag:'产品策划'}}">产品策划</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'product',sub_tag:'02'}}">产品管理</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'产品经理',sub_tag:'产品管理'}}">产品管理</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'product',sub_tag:'03'}}">产品设计</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'产品经理',sub_tag:'产品设计'}}">产品设计</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'product',sub_tag:'04'}}">产品运营</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'产品经理',sub_tag:'产品运营'}}">产品运营</router-link></p>
             </div>
           </div>
         </div>
@@ -123,25 +123,25 @@
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'bigData',sub_tag:'01'}}">Spark</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'AI大数据',sub_tag:'Spark'}}">Spark</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'bigData',sub_tag:'02'}}">Storm</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'AI大数据',sub_tag:'Storm'}}">Storm</router-link></p>
             </div>
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'bigData',sub_tag:'03'}}">Scala</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'AI大数据',sub_tag:'Scala'}}">Scala</router-link></p>
             </div>
           </div>
           <div class="scrolltab__content-row">
             <div class="scrolltab__content-item">
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'bigData',sub_tag:'04'}}">Hadoop</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'AI大数据',sub_tag:'Hadoop'}}">Hadoop</router-link></p>
             </div>
             <div class="scrolltab__content-item" >
               <yd-icon name="compose" size=".6rem"></yd-icon>
-              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'bigData',sub_tag:'05'}}">Kafka</router-link></p>
+              <p><router-link tag="a" :to="{name:'detailPages',query:{tag:'AI大数据',sub_tag:'Kafka'}}">Kafka</router-link></p>
             </div>
           </div>
         </div>

@@ -54,12 +54,18 @@
       },
       getData:function () {
           var _this = this;
-          var params = new URLSearchParams();
+         /* var params = new URLSearchParams();
           params.append('tag', this.$route.query.tag);
-          params.append('sub_tag', this.$route.query.sub_tag);
-          this.$http.post('https://www.baidu.com/s?ie=UTF-8&wd=%E9%82%AE%E7%AE%B1',params,{
+          params.append('sub_tag', this.$route.query.sub_tag);*/
+         var postParams = {
+             'tag': this.$route.query.tag,
+             'sub_tag':  this.$route.query.sub_tag
+         };
+         var params = JSON.stringify(postParams);
+          this.$http.post('http://127.0.0.1:8000/get_a/',params,{
             headers:{
-              'Access-Control-Allow-Origin':'*'
+              'Access-Control-Allow-Origin':'*',
+              "Content-Type": "application/json"
             }
           }).then(res=>{
             var str = res.data;

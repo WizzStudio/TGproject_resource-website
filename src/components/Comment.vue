@@ -109,7 +109,7 @@
       },
       postData(){
         var _this = this;
-        this.$http.post('../../mock/data.json').then(function(res){
+        this.$http.post('').then(function(res){
           _this.comment = res.data;
           console.log(res.data);
         }).catch(function(error){
