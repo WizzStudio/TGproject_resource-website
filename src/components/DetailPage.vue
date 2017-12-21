@@ -64,8 +64,8 @@
          var params = JSON.stringify(postParams);
           this.$http.post('http://127.0.0.1:8000/get_a/',params,{
             headers:{
-              'Access-Control-Allow-Origin':'*',
-              "Content-Type": "application/json"
+//              'Access-Control-Allow-Origin':'*',
+              "Content-Type": "application/x-www-form-urlencoded"
             }
           }).then(res=>{
             var str = res.data;
@@ -83,7 +83,7 @@
 
 </script>
 
-<style scoped>
+<style>
   #detailPage {
     height:100vh;
     display: flex;
@@ -119,29 +119,31 @@
   /* 对内容的样式添加 */
   .detailPage__content p{
     color: #111;
-    font-size: 1rem;
-    line-height: 3rem;
-    padding: 1.8rem;
+    font-size: .24rem;
+    line-height: .4rem;
+    padding: .4rem .6rem;
+    text-align: left;
   }
   .detailPage__content p:nth-child(1){
     font-weight: bold;
-    font-size: 2rem;
-    padding: 1.8rem;
+    font-size: .4rem;
+    padding: .6rem .6rem .4rem .6rem;
   }
   .detailPage__content img{
     width: 90vw;
     margin: 0 auto;
-    padding: 1rem 0;
+    padding: .4rem 0;
     display: block;
   }
   .detailPage__content a{
     display: block;
     margin: 0 auto;
-    height: 4rem;
-    font-size: 1.8rem;
-    line-height: 3rem;
-    padding-left: 1.8rem;
-    color: #111111;
+    height: .8rem;
+    font-size: .24rem;
+    line-height: .4rem;
+    padding-left: .6rem;
+    color: #00a0e8;
+    text-align: left;
   }
   .detailPage__content a:active{
     color: #00a0e8;
