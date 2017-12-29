@@ -62,7 +62,7 @@
              'sub_tag':  this.$route.query.sub_tag
          };
          var params = JSON.stringify(postParams);
-          this.$http.post('http://127.0.0.1:8000/get_a/',params,{
+          this.$http.post('http://study.fenlan96.com/get_a/',params,{
             headers:{
 //              'Access-Control-Allow-Origin':'*',
               "Content-Type": "application/x-www-form-urlencoded"
