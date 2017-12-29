@@ -1,15 +1,15 @@
 <template>
   <div id="nav">
     <yd-accordion>
-      <yd-accordion-item title="TG STUDIO" class="nav__bar">
+      <yd-accordion-item title="CTG STUDIO" class="nav__bar">
         <div slot="icon" class="nav__icon" @click.native="open"><yd-icon name="type" size=".38rem" color="#FFF" ></yd-icon></div>
         <div class="nav__content">
           <ul class="nav__content-ul">
             <li class="nav__content-ul_li_1">
-              <yd-icon name="home" size=".4rem" color="#888"></yd-icon><a href="">首页</a>
+              <yd-icon name="home" size=".4rem" color="#888"></yd-icon><a href="http://www.projbar.cn/">项慕吧</a>
             </li>
             <li class="nav__content-ul_li_2">
-              <yd-icon name="feedback" size=".4rem" color="#888"></yd-icon><a href="http://tgblog.helloyzy.cn/">TG博客</a>
+              <yd-icon name="feedback" size=".4rem" color="#888"></yd-icon><a href="http://tgblog.helloyzy.cn/">CTG博客</a>
             </li>
             <li class="nav__content-ul_li_3">
               <yd-icon name="ucenter-outline" size=".4rem" color="#888"></yd-icon><a href="http://portal.helloyzy.cn/">关于我们</a>
